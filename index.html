@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <button>Rock</button>
-    <button>Paper</button>
-    <button>Scissors</button>
+    <div class="selections">
+        <button class="rock"><img src="./images/rock.webp" alt="Rock"></button>
+        <button class="paper"><img src="./images/paper.webp" alt="Paper"></button>
+        <button class="scissors"><img src="./images/scissors.webp" alt="Scissors"></button>
+    </div>
 
-    <div class="results"></div>
-    <div class="score">Player Score: 0 Computer Score: 0</div>
+
+    <div class="scoreboard">
+        <div class="results">Select a weapon to start the game!</div>
+        <div class="score">Player Score: 0 Computer Score: 0</div>
+        <button class="reset">Reset</button>
+    </div>
+
+
+
 </body>
 
 <script src="script.js"></script>

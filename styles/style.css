@@ -1,0 +1,29 @@
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15%;
+    margin-bottom: 8px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px black solid;
+}
+
+.reset {
+    background-color: lightgray;
+}
